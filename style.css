@@ -95,4 +95,20 @@
   .cata{
       margin-bottom: 70px;
   }
- 
+  .topbgimg{
+      background-image: url(hot-gadgets/bg-1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 70px;
+  }
+  .topbgimg2{
+      background-image: url(hot-gadgets/bg-2.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 100px;
+      background-position-y: 450px;
+  }
+  footer{
+      text-align: center;
+      color: gray;
+  }
