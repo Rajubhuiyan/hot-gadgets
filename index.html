@@ -4,16 +4,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot-Gadzet</title>
+    <title>Hot-Gadgets</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="hot-gadgets/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#product">Product</a>
+              <a class="nav-link" href="#categories">Categories</a>
+              <a class="nav-link" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</div>
+
+
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <h1>Macbook Pro</h1>
+                    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut id consequatur vero ratione dignissimos, eaque doloremque numquam corporis ea. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+                    <button class="buy-now-buton">Buy Now~</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="hot-gadgets/banner-products/product-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <h1>Sound Box</h1>
+                    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut id consequatur vero ratione dignissimos, eaque doloremque numquam corporis ea. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+                    <button class="buy-now-buton">Buy Now~</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="hot-gadgets/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <h1>Bluetooth Speaker</h1>
+                    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut id consequatur vero ratione dignissimos, eaque doloremque numquam corporis ea. Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
+                    <button class="buy-now-buton">Buy Now~</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="hot-gadgets/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="container" id="product">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Smartphone</h1>
+      </div>
+      <div class="col-md-6">
+        <h5 class="see-all">See All</h5>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="hot-gadgets/phone/phone-1.png" class="card-img-top second" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Iphone 11 Pro</h5>
+            <p class="card-text">Some quick example text to build on the card title.</p>
+          </div>
+          <h5 class="price">$999</h5>
+          <div class="card-footer">
+            <button class="buy-now-buton">Buy Now~</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="hot-gadgets/phone/phone-2.png" class="card-img-top second" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Glaxy Note10+</h5>
+            <p class="card-text">Some quick example text to build on the card title.</p>
+            <h5 class="price">$699</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-buton">Buy Now~</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="hot-gadgets/phone/phone-3.png" class="card-img-top second" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xiomi Poco X2</h5>
+            <p class="card-text">Some quick example text to build on the card title.</p>
+          </div>
+          <H5 class="price">$399</H5>
+          <div class="card-footer">
+            <button class="buy-now-buton">Buy Now~</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="container yo" id="product">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Laptop</h1>
+    </div>
+    <div class="col-md-6">
+      <h5 class="see-all">See All</h5>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="hot-gadgets/laptop/product-1.png" class="card-img-top third" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus VivoVook</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+        </div>
+        <h5 class="price">$999</h5>
+        <div class="card-footer">
+          <button class="buy-now-buton">Buy Now~</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="hot-gadgets/laptop/product-2.png" class="card-img-top third" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Razer Blade 15</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <H5 class="price">$399</H5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-buton">Buy Now~</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="hot-gadgets/laptop/product-3.png" class="card-img-top third" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xiomi Mi Note Book Pro</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+        </div>
+        <H5 class="price">$399</H5>
+        <div class="card-footer">
+          <button class="buy-now-buton">Buy Now~</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-
+<div class="container" id="categories">
+  <h1 class="cata">Categories</h1>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="ra">
+        <img class="firstsite" src="hot-gadgets/Categories/bag.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img class="firstsite" src="hot-gadgets/Categories/perfume.png" alt="">
+      <img class=" firstsite" src="hot-gadgets/Categories/shoe.png" alt="">
+    </div>
+    <div class="col-md-6">
+      <img class="lastimg" src="hot-gadgets/Categories/pale-order.png" alt="">
+    </div>
+  </div>
+</div>
 
 
 

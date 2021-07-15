@@ -1,0 +1,98 @@
+.buy-now-buton{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: none;
+    border: none;
+    
+}
+.pera{
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: chartreuse; }
+    .first img{
+        width: 250px;
+        
+        
+        
+    }
+    .second img{
+        width: 50px;
+        
+    }
+    
+    .card-footer{
+        border: none;
+        background-color: white;
+        padding-left: 35%;
+        padding-bottom: 50px;
+    }
+    .card{
+        border: none;
+        box-shadow: 1px 1px 10px rgb(235, 233, 233);
+        border-radius: 10px;
+        
+    }
+   .card-title, .card-text, .price{
+       text-align: center;
+      
+   }
+   .card-text{
+       color: gray;
+       margin-top: 20px;
+       
+   }
+   .price{
+       margin-top: 30px;
+       font-weight: 700;
+   }
+   .yo{
+       margin-top: 100px;
+   }
+   .second{
+       padding: 50px;
+   }
+   .third{
+       padding: 30px;
+   }
+   .see-all{
+      text-align: right;
+      color: orange;
+   }
+  .row{
+      margin-bottom: 70px;
+  }
+  .cata{
+      text-align: center;
+      
+  }
+  .firstsite{
+    box-shadow: 4px 4px 20px rgb(201, 201, 201);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .lastimg{
+      box-shadow: none;
+      width: 600px;
+  }
+  #categories{
+      margin-top: 70px;
+      padding-bottom: 100px;
+      
+  }
+  .ra{
+      padding-left: 120px;
+      padding-top: 100px;
+  }
+  .cata{
+      margin-bottom: 70px;
+  }
+ 
